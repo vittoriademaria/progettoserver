@@ -2,7 +2,7 @@ const { URL } = require("url");
 
 class pageLoader {
   constructor(page) {
-    this.baseUrl = "https://it.wikipedia.org/wiki/Node.js";
+    this.baseUrl = "https://it.wikipedia.org";
     this.page = page;
   }
 
